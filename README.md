@@ -1,6 +1,27 @@
 # terraform-yc-cost
 Resource cost estimation from Terraform plan for Yandex Cloud.
 
+List of supported resources:
+```
+yandex_compute_instance
+yandex_compute_instance_group
+yandex_compute_disk
+yandex_compute_filesystem
+yandex_kubernetes_cluster
+yandex_kubernetes_node_group
+yandex_mdb_mysql_cluster
+yandex_mdb_postgresql_cluster
+yandex_mdb_clickhouse_cluster
+yandex_mdb_greenplum_cluster
+yandex_mdb_kafka_cluster
+yandex_mdb_redis_cluster
+yandex_mdb_opensearch_cluster
+yandex_ydb_database_dedicated
+yandex_vpc_address
+```
+
+> Only `ru-central` Yandex Cloud installation is currently supported. The output is in RUB currency.
+
 # Demo
 
 Prerequisites:
